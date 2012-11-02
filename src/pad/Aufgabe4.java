@@ -25,7 +25,11 @@ public class Aufgabe4 {
 	 * 
 	 */
 	  
+<<<<<<< HEAD
 	public static class Kontakt{
+=======
+		public static class Kontakt{
+>>>>>>> a8a308a20c4254d3957ed09b47645ba889e1d56a
 	         String name;
 	         String vorname;
 	         String studiengang;
