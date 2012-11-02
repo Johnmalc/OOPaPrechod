@@ -24,55 +24,85 @@ public class Aufgabe4 {
 	 * 
 	 * 
 	 */
-	public static class Kontakt{
-		String name;
-		String vorname;
-		String studiengang;
-		String email;
-		int semester;
-		int matrikel;
-		
+	  
+		public static class Kontakt{
+	         String name;
+	         String vorname;
+	         String studiengang;
+	         String email;
+	         int semester;
+	         int matrikel;
 	}
 	
+	  public static void main(String[] args) {
+		  
+		  	 Kontakt[] kontakten = new Kontakt[10];
+		  	 Kontakt details = null;
 	
-	public static void main(String[] args) {
-		
-		Kontakt details = new Kontakt();
-		// for a menu, a convection
-		boolean fertigMitProgramm = false;
-		int yourChoice = IOTools.readInt("Your choice for menu, please");
-		
-		// repead action after your input
-		while(!false) {
-			
-		// choose a number and procced
-		switch(yourChoice){
-		case : 
-			break;
-		case :
-			break;
-		case : 
-			break;
-			
-		
-		// exit programm
-		case /*Number*/ :
-		fertigMitProgramm = true;
-		break;
-		
-		
-		// user's input  = error
-		default: 
-			System.out.println("You cannot write a text (String) or number bigger than x");
-			
-		
-		
-		
-			}
-		
-		}
-		
-		
+		  	 for(int i = 0; i < kontakten.length; i++){
+		  		 kontakten[i] = new Kontakt();
+		  		 details = kontakten[0];
+		  	 }
+		   
+	         // for a menu, a convection
+	         boolean fertigMitProgramm = false;
+	    	 System.out.println("\n");
+	         
+	         // repead action after your input
+	         while(!false) {
+	        	 
+	        	 System.out.println("Menu 1  : Eingabe");
+	             System.out.println("Menu 2  : Schuler Daten bearbeiten (Loschen)");
+	             System.out.println("Menu 3  : Programm beenden ");
+	             
+	             int yourChoice = IOTools.readInt("Your choice for menu, please");
+	            
+	          // choose a number and procced
+	          switch(yourChoice){
+	          
+	          // eingabe ausgabe
+	          case 1 :
+	        	   System.out.println("");
+	        	   System.out.println("Geben Sie jetzt ihre daten ein");
+	        	   
+	               details.name = IOTools.readLine("Name eingeben");
+	               details.vorname = IOTools.readLine("Vorname eingeben");
+	               details.studiengang = IOTools.readLine("Studiengang eingeben");
+	               details.email = IOTools.readLine("Email eingeben");
+	               details.semester = IOTools.readInt("Semester eingeben");
+	               details.matrikel = IOTools.readInt("Matrikel Nummer eingeben");
+	              
+	               System.out.println("");
+	               System.out.println(details.name);
+	               System.out.println(details.vorname);
+	               System.out.println(details.studiengang);
+	               System.out.println(details.semester);
+	               System.out.println(details.matrikel);
+	               System.out.println("");
+	               
+	          break;
+	          
+	          
+	          // Schuller wechseln = array uberschreiben
+	          case 2 :
+	//        	  if(kontakten[i] ==  ) {
+	//        		  
+	//        	  }
+	        	  int n = IOTools.readInteger("Schuller wechseln an position"
+	                      + " 1 bis 10):");
+	        	  details = kontakten[n-1];
+	        	  
+	          // Fertig
+	          case 3 : 
+	        	  fertigMitProgramm = true;
+	        	  
+	          break;
+	          
+	          // user's input = error = Fertig
+	          default:
+	        	  System.out.println("You cannot write a text (String) or number bigger than " + yourChoice);
+	          }
+	      }
+	
+	  }
 	}
-
-}
