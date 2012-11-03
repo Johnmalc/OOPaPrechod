@@ -135,7 +135,8 @@ public class Aufgabe4 {
 					System.out.println(kontakten[position].email);
 					System.out.println(kontakten[position].semester);
 				
-				}				
+				}
+				// kein break, weil 
 			case 3 : 
 				// Programm beenden
 				ProgrammFertig = true;
