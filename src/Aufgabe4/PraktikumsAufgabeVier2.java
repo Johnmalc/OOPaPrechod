@@ -1,4 +1,4 @@
-package malc;
+package Aufgabe4;
 
 import Prog1Tools.IOTools;
 
@@ -154,7 +154,7 @@ public class PraktikumsAufgabeVier2
             System.out.println("");
             System.out.println("Ihre Daten sind an der gew�nschten Position gespeichert worden");
             
-            if (antwortIndex.equals("Nein"))
+           if (antwortIndex.equals("Nein"))
             
             
             {
@@ -193,18 +193,7 @@ public class PraktikumsAufgabeVier2
         
         ende = true;
         System.out.println("Zum beenden beliebige Taste dr�cken");
-        
-        
-        
-        
-        
-        
       } // end of switch
-      
-      
-      
-      
-      
       
     } // end of while
     

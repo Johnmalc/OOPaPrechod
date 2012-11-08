@@ -1,4 +1,4 @@
-package malc;
+package Aufgabe4;
 
 import Prog1Tools.IOTools;
 
@@ -173,7 +173,7 @@ public class Aufgabe4 {
 				kontakten[zum - 1] = null;
 				System.out.println("Daten geloscht");
 				System.out.println(kontakten[zum - 1]);
-				System.out.println("");
+				System.out.println("kb");
 				//break;
 
 			case 4:
