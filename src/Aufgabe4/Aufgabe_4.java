@@ -1,8 +1,7 @@
 package Aufgabe4;
-
 import Prog1Tools.IOTools;
 
-public class Aufgabe4 {
+public class Aufgabe_4 {
 
 	/**
 	 * @param args
@@ -22,16 +21,16 @@ public class Aufgabe4 {
 	public static void main(String[] args) {
 		Daten[] kontakten = new Daten[10];
 
-		// nur fur anfang, seit 2 wirde ich immer etwas eingeben
+		// nur fur anfang, seit 2 werde ich immer etwas eingeben
 		int choice = 0;
 
-		int position;
+		int position = 0;
 		int zumLoschen;
 
 		// boolen fur exit
 		boolean ProgrammFertig = false;
 
-		// wenn 3 while loop will stop, alles andere wird wiederholt
+		// wenn 3 - while loop will stop, alles andere wird wiederholt
 		while (choice != 3) {
 
 			System.out.println("-----Menu-----");
@@ -39,7 +38,6 @@ public class Aufgabe4 {
 			System.out.println("2: Daten uberschreiben");
 			System.out.println("3: Studenten Loschen");
 			System.out.println("4: Programm beenden");
-
 			choice = IOTools.readInt("Ihre Zahl eingeben");
 
 			switch (choice) {
@@ -53,7 +51,7 @@ public class Aufgabe4 {
 				// die Position kann nicht kleiner 10 und >= 0 sein
 				if ((position < 10) && (position >= 0)) {
 
-					// referenziert auf nicht; wenn hier etwas ware, dann
+					// referenziert auf nichts; wenn hier etwas ware, dann
 					// uberspringt weiter
 					// Must be
 
@@ -166,15 +164,17 @@ public class Aufgabe4 {
 				// kein break
 
 			case 3:
-				System.out
-						.println("An welche position sollen daten gelost werden");
-
-				int zum = IOTools.readInt();
-				kontakten[zum - 1] = null;
-				System.out.println("Daten geloscht");
-				System.out.println(kontakten[zum - 1]);
-				System.out.println("kb");
-				//break;
+//				System.out
+//						.println("An welche position sollen daten gelost werden");
+//
+//				int zum = IOTools.readInt();
+//				kontakten[zum - 1] = null; // wegen array sache
+//				System.out.println("Daten geloscht");
+//				System.out.println(kontakten[zum - 1]);
+//				System.out.println("");
+				kontakten[position].IsTaken = false;
+				System.out.println("daten gelost");
+				break;
 
 			case 4:
 				// Programm beenden
