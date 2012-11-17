@@ -1,4 +1,4 @@
-package da;
+package aufgabe4;
 
 import Prog1Tools.IOTools;
 

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ubung1311;
+package ubung1311;
 
 /**
  *
