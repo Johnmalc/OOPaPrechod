@@ -5,41 +5,37 @@
 package ubung2011;
 
 /**
- *
+ * 
  * @author petrovd
  */
 public class Zinsen {
 
-    /**
-     * @param args the command line arguments
-     */
-//    public static int kapital = 10000;
-//    public static double rate = 0.02;
-//    public static int jahr = 10;
-    //public static double vys = jahr * ((rate+1) * kapital);
-    
-   
-    public static void main(String[] args) {
-        System.out.println(zinesenRekursiv(10, 0.02, 10000));
-        System.out.println(neKapital);
-    }
+	public static void main(String[] args) {
+		// mit For loop
 
-    public static double zinesenRekursiv(double jahr, double rate, double kapital) {
-        //double vys = jahr * ((rate+1) * kapital);
-//        if(jahr > 0){
-//            System.out.println("0");
-//        }
-//        else { 
-        if(jahr > 0){
-            double a = (rate * kapital);
-            double neKapital = a + kapital;
-            jahr--;
-            neKapital = zinesenRekursiv(jahr, rate, kapital);
-        }
-        neKapital = zinesenRekursiv(jahr, rate, kapital);     //}
-        zinesenRekursiv(jahr, rate, kapital);
-        //zinesenRekursiv();
-     
-     return neKapital;
-    }
+		double CurrMoney = 10000, TotalMoney;
+		int years = 10;
+		for (int i = 0; i < years; i++) {
+			CurrMoney = CurrMoney + (CurrMoney * 0.02);
+		}
+		TotalMoney = CurrMoney;
+		System.out.println(TotalMoney);
+
+		// call by value
+		System.out.println(hi(10000, 0.02, 10));
+
+		// shortened
+		double CurrMoneyd = 10000, TotalMoneyd, yearsd = 10;
+		TotalMoneyd = CurrMoneyd * (1 + (Math.pow((0.02), years)));
+		System.out.println(TotalMoneyd);
+
+	}
+
+	public static double hi(double kapital, double zins, int jahr) {
+		if (jahr == 0) {
+			return kapital;
+		} else {
+			return (1 + zins) * hi(kapital, zins, jahr - 1);
+		}
+	}
 }

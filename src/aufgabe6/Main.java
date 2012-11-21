@@ -2,9 +2,6 @@
  * 
  */
 package aufgabe6;
-
-
-
 /**
  * @author Johnmalc Aufgabe 6 : 
  * 		   Teilaufgabe 1 : zahler und nenner spreichern
@@ -59,5 +56,4 @@ public class Main {
 			System.out.println(zeigBruch.setUnzuZahl1());
 		}
 	}
-
 }
