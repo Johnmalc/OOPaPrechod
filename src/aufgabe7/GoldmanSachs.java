@@ -27,17 +27,13 @@ public class GoldmanSachs extends Aktien {
 				+ "\n" + "Now you have sold " + name + " for " + price
 				+ ". You own " + newQuantity + ".";
 	}
-
 	@Override
 	public double getValue() {
 		double newValue = price * quantity;
 		return newValue;
 	}
-
 	@Override
 	public String toStringNon() {
-		// TODO Auto-generated method stub
 		return name + " " + identifier + " " + price + " " + quantity;
 	}
-
 }

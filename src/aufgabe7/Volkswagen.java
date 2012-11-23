@@ -18,7 +18,6 @@ public class Volkswagen extends Aktien {
 		return "You have " + newQuantity + ". You bought " + quantity + "."
 				+ "\n" + "Now you have bought " + name + " for " + price
 				+ ". You own " + newQuantity + ".";
-
 	}
 	@Override
 	public String setSell(int quantity) {
@@ -27,17 +26,13 @@ public class Volkswagen extends Aktien {
 				+ "\n" + "Now you have sold " + name + " for " + price
 				+ ". You own " + newQuantity + ".";
 	}
-
 	@Override
 	public double getValue() {
 		double newValue = price * quantity;
 		return newValue;
 	}
-
 	@Override
 	public String toStringNon() {
-		// TODO Auto-generated method stub
 		return name + " " + identifier + " " + price + " " + quantity;
 	}
-
 }

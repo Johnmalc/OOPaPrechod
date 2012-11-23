@@ -10,8 +10,6 @@ public class Google extends Aktien {
 	public Google(double priceX, int quantityX) {
 		this.price = priceX;
 		this.quantity = quantityX;
-		
-
 	}
 	@Override
 	public String setBuy(int quantity) {
@@ -28,16 +26,13 @@ public class Google extends Aktien {
 				+ "\n" + "Now you have sold " + name + " for " + price
 				+ ". You own " + newQuantity + ".";
 	}
-
 	@Override
 	public double getValue() {
 		double newValue = price * quantity;
 		return newValue;
 	}
-
 	@Override
 	public String toStringNon() {
-		// TODO Auto-generated method stub
 		return name + " " + identifier + " " + price + " " + quantity;
 	}
 
