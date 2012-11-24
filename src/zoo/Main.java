@@ -34,10 +34,6 @@ public class Main {
 		}
 
 		Bar Ba = GB[1];
-		// System.out.println(Arrays.toString(GB));
-
-		// GB[1].setName("sdfdsf");
-		// System.out.println(Arrays.toString();
 
 		for (int i = 0; i < GB.length; i++) {
 			if (GB[i] == null) {
@@ -50,5 +46,4 @@ public class Main {
 			}
 		}
 	}
-
 }

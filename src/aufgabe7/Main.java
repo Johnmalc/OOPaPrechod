@@ -1,18 +1,32 @@
 package aufgabe7;
 
-import Prog1Tools.IOTools;
+import java.util.Scanner;
 
 public class Main {
 
 	/**
 	 * @author johnmalc and Heiko
 	 */
+
+
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
+		/*
+		 * Create array of 4 shares - aktien.java
+		 * In case both are in comments nothing will happen
+		 */
+		Aktien[] shares = new Aktien [4];
+		
+		
 		/*
 		 * Object for GS Print Wert from method Get Value
 		 */
-		int a = IOTools.readInt("Welchen Preis stellen sie ?");
-		int d = IOTools.readInt("Wie viel aktien wollen sie kaufen ? ");
+		
+		System.out.println("Welchen Preis stellen sie ? Nur mit , nich punkt ");
+		System.out.println("Wie viel aktien wollen sie kaufen ?");
+		double a = new Scanner(System.in).nextDouble();
+		int d = new Scanner(System.in).nextInt();
+		
 		// 1. price 2. quantity
 		GoldmanSachs share = new GoldmanSachs(a, d);
 		System.out.println(share.toStringNon());
@@ -23,6 +37,7 @@ public class Main {
 		 */
 		System.out.println(share.setBuy(50));
 		System.out.println(share.setSell(20));
+		System.out.println(share.getSagHallo());
 		
 		System.out.println("\n");
 		System.out.println("\n");
@@ -30,8 +45,13 @@ public class Main {
 		/*
 		 * Object for Microsoft
 		 */
-		int b = IOTools.readInt("Welchen Preis stellen sie ?");
-		int c = IOTools.readInt("Wie viel aktien wollen sie kaufen ? ");
+		
+		System.out.println("Welchen Preis stellen sie ? Nur mit , nich punkt ");
+		System.out.println("Wie viel aktien wollen sie kaufen ?");
+		
+		double b = new Scanner(System.in).nextDouble();
+		int c = new Scanner(System.in).nextInt();
+		
 		// 1. price 2. quantity
 		Microsoft share2 = new Microsoft(b, c);
 		System.out.println(share2.toStringNon());
@@ -42,6 +62,8 @@ public class Main {
 		 */
 		System.out.println(share2.setBuy(50));
 		System.out.println(share2.setSell(20));
+		System.out.println(share2.getSagHallo());
+
 
 		System.out.println("\n");
 		System.out.println("\n");
@@ -49,8 +71,13 @@ public class Main {
 		/*
 		 * Object for Google
 		 */
-		int e = IOTools.readInt("Welchen Preis stellen sie ?");
-		int r = IOTools.readInt("Wie viel aktien wollen sie kaufen ? ");
+
+		System.out.println("Welchen Preis stellen sie ? Nur mit , nich punkt ");
+		System.out.println("Wie viel aktien wollen sie kaufen ?");
+		
+		double e = new Scanner(System.in).nextDouble();
+		int r = new Scanner(System.in).nextInt();
+		
 		// 1. price 2. quantity
 		Google share3 = new Google(e, r);
 		System.out.println(share3.toStringNon());
@@ -61,6 +88,8 @@ public class Main {
 		 */
 		System.out.println(share3.setBuy(50));
 		System.out.println(share3.setSell(20));
+		System.out.println(share3.getSagHallo());
+
 
 		System.out.println("\n");
 		System.out.println("\n");
@@ -68,8 +97,13 @@ public class Main {
 		/*
 		 * Object for Volkswagen
 		 */
-		int q = IOTools.readInt("Welchen Preis stellen sie ?");
-		int w = IOTools.readInt("Wie viel aktien wollen sie kaufen ? ");
+		
+		System.out.println("Welchen Preis stellen sie ? Nur mit , nich punkt ");
+		System.out.println("Wie viel aktien wollen sie kaufen ?");
+		
+		double q = new Scanner(System.in).nextDouble();
+		int w = new Scanner(System.in).nextInt();
+		
 		// 1. price 2. quantity
 		Volkswagen share4 = new Volkswagen(q, w);
 		System.out.println(share4.toStringNon());
@@ -80,18 +114,27 @@ public class Main {
 		 */
 		System.out.println(share4.setBuy(50));
 		System.out.println(share4.setSell(20));
-		
-		
+		System.out.println(share4.getSagHallo());
+
 		
 		/*
-		 * Array 
+		 * If in comments it will print Error
+		 * These lines print either Fehler in case 131-136 are in comments 
+		 * or nothing in case everything is in comments 
+		 * If not then the last share will be printed 4 times (here Volskwagen)
 		 */
-//		Aktien[] shares = new Aktien [4];
-//		shares[0] = new Google(10,30);
-//		
-//		System.out.println(Arrays.toString(shares));
-	
-
+//		for (int i = 0; i<4; i++) {
+//			shares[i] = new Google(e,r);
+//			shares[i] = new GoldmanSachs(a,d);
+//			shares[i] = new Microsoft(b,c);
+//			shares[i] = new Volkswagen(a,d);
+//		}
+//		for (int i = 0; i < shares.length; i++) {
+//			if(shares[i] == null) {
+//				System.out.println("Fehler");
+//			}else {
+//				System.out.println(shares[i].getSagHallo());
+//			}
+//		}
 	}
-
 }

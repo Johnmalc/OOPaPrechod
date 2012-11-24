@@ -27,13 +27,18 @@ public class Google extends Aktien {
 				+ ". You own " + newQuantity + ".";
 	}
 	@Override
-	public double getValue() {
+	public String getValue() {
 		double newValue = price * quantity;
-		return newValue;
+		String a = "The value of the share is " + newValue;
+		return a;
 	}
 	@Override
 	public String toStringNon() {
 		return name + " " + identifier + " " + price + " " + quantity;
 	}
-
+	@Override
+	public String getSagHallo() {
+		String a = name + " sag Hallo";
+		return a;
+	}
 }
