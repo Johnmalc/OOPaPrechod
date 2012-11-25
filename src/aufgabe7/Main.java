@@ -15,7 +15,7 @@ public class Main {
 		 * Create array of 4 shares - aktien.java
 		 * In case both are in comments nothing will happen
 		 */
-		Aktien[] shares = new Aktien [4];
+		//Aktien[] shares = new Aktien [4];
 		
 		
 		/*
