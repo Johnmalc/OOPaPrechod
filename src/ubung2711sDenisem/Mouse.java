@@ -1,4 +1,4 @@
-package ubung2711.SDenisem;
+package ubung2711sDenisem;
 /**
   *
   * Beschreibung
@@ -10,7 +10,7 @@ package ubung2711.SDenisem;
 public class Mouse extends Flugzeug {
   
   // Anfang Attribute
-  private static double treibstoff_passagier = 9.6;
+  public static double treibstoff_passagier = 9.6;
   // Ende Attribute
   
   // Anfang Methoden

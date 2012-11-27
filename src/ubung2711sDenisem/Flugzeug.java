@@ -1,4 +1,4 @@
-package ubung2711.SDenisem;
+package ubung2711sDenisem;
 
 /**
  * 
@@ -11,8 +11,8 @@ package ubung2711.SDenisem;
 public class Flugzeug {
 
 	// Anfang Attribute
-	private int passagiere;
-	private double kosten;
+	public int passagiere;
+	public double kosten;
 	private static double treibstoffkosten = 9.33;
 	private static double ticketkosten = 264.00;
 	private static double crew = 8890;

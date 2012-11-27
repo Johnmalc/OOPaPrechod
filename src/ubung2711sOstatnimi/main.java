@@ -1,4 +1,4 @@
-package ubung2711.SOstatnimi;
+package ubung2711sOstatnimi;
 
 /**
  * 

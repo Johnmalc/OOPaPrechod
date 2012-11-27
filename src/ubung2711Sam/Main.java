@@ -1,17 +1,14 @@
-package ubung2711.MeineLogic;
+package ubung2711Sam;
 
 public class Main {
-
-	public Main() {
-		// TODO Auto-generated constructor stub
-	}
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Flugzeug Spider = new Flugzeug(3000000,130,9.6);
+		Berechnung Spider2 = new Berechnung();
+		System.out.println(Spider2.kosten(499, 8990, 130, 9.6, 9.33));
 	}
 
 }

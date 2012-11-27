@@ -1,4 +1,4 @@
-package ubung2711.SDenisem;
+package ubung2711sDenisem;
 /**
   *
   * Beschreibung
