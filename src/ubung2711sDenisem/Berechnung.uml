@@ -1,0 +1,44 @@
+[Files]
+File0=Berechnung.java
+File1=Flugzeug.java
+File2=main.java
+
+[Box:  - Berechnung]
+X=657
+Y=128
+MinVis=0
+
+[Box:  - Flugzeug]
+X=256
+Y=78
+MinVis=0
+
+[Box:  - main]
+X=20
+Y=40
+MinVis=0
+
+[Diagram]
+OffsetX=0
+OffsetY=0
+ShowAssoc=1
+Visibility=0
+ShowParameter=0
+SortOrder=0
+ShowIcons=0
+Fontname=MS Sans Serif
+Fontsize=10
+
+[Interactive]
+I0=
+I1=
+I2=
+I3=
+I4=
+
+[Window]
+Left=100
+Top=100
+Width=1695
+Height=492
+
