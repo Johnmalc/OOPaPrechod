@@ -10,13 +10,13 @@ package ubung2711sOstatnimi;
 
 public class Flugzeug {
 
-	private int kosten;
-	private int panzahl;
-	private double treibstoff;
-	private double kosten_pro_liter;
-	private double ticket;
-	private double crew;
-	private int andock;
+	public int kosten;
+	public int panzahl;
+	public double treibstoff;
+	public double kosten_pro_liter;
+	public double ticket;
+	public double crew;
+	public int andock;
 
 	public Flugzeug(int kost, int anzahl, double treibpropass) {
 		kosten = kost;

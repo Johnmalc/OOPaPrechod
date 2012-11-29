@@ -11,7 +11,7 @@ package ubung2711sOstatnimi;
 public class main {
 
 	public static void main(String[] args) {
-		Flugzeug Mouse = new Flugzeug(2500000, 105, 9.6);
+		new Flugzeug(2500000, 105, 9.6);
 		for (int i = 1; i < 131; i++) {
 			System.out.println(i);
 
@@ -21,18 +21,17 @@ public class main {
 			int pass = Spider.getpanzahl();
 			double treibpro = Spider.gettreibstoff();
 			int andock = Spider.getandock();
-			Berechnung Beree = new Berechnung();
-			System.out.println(Beree.kosten(pass, n, treibpro, andock));
+			System.out.println(Berechnung.kosten(pass, n, treibpro, andock));
 
 			double ticket = Spider.getticket();
-			double gewinn = (Beree.gewinn(ticket, pass) - Beree.kosten(pass, n,
+			double gewinn = (Berechnung.gewinn(ticket, pass) - Berechnung.kosten(pass, n,
 					treibpro, andock));
 			if (gewinn > 0) {
 				System.out.println("Der Flug lohnt sich");
 			} else {
 				System.out.println("Der Flug lohnt sich nicht");
 			}
-			System.out.println(Beree.gewinn(ticket, pass));
+			System.out.println(Berechnung.gewinn(ticket, pass));
 		}
 	}
 } // end of main
