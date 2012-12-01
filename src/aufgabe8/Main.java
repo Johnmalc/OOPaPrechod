@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	/**
-	 * @author johnmalc and Heiko
+	 * @author johnmalc 
 	 * 
 	 *         Aufgabe 8 : Erweitern Sie die Programme für Aktien zu einer
 	 *         Depotverwaltung: Es soll nun neben normalen Aktien auch
@@ -115,17 +115,31 @@ public class Main {
 			System.out.println("Welchen wert besitzen hedgefond auf der borse "
 					+ aktienf.getValue());
 			System.out.println(aktienf.getDefferenz());
-			
+
 			break;
 		case 300_000:
 			System.out.println("Wie viele aktien besitzt Rentefond");
 			int quantity = new Scanner(System.in).nextInt();
-			Rentefonds rfonds = new Rentefonds(quantity);
+
+			System.out.println("Zu welchem Preis wollen sie diese kaufen");
+			double price = new Scanner(System.in).nextDouble();
+			
+			System.out.println("Wie viel aktien wollen sie kaufen ?");
+			int kauf = new Scanner(System.in).nextInt();
+
+			System.out
+					.println("Wie viele aktien wollen sie spater danach verkaufen");
+			int verkauf = new Scanner(System.in).nextInt();
+
+			Rentefonds rfonds = new Rentefonds(quantity, price, verkauf);
+			System.out.println("Wert der Aktien die sie gekauft haben ist "
+					+ rfonds.getValue());
+
+			System.out.println(rfonds.setBuy(kauf));
+			System.out.println(rfonds.setSell(verkauf));
 			System.out.println(rfonds.berechneGebuhr());
-			
-			
-			
-			
+
+
 			break;
 		default:
 			System.out
