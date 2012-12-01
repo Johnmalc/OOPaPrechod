@@ -1,5 +1,6 @@
 package aufgabe7;
 
+
 public class GoldmanSachs extends Aktien {
 	public String name = "GoldmanSachs";
 	public String identifier = "GS";

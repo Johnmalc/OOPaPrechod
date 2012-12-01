@@ -42,6 +42,7 @@ public class main {
 			fluege++;
 		} // end of while
 		System.out.println("N�tige Fluege f�r Typ Mouse: " + fluege);
+		
 		fluege = 0;
 		Spider.setPassagiere(Spider.getMax_passagiere());
 		while (Spider.getKosten() <= 0) {
