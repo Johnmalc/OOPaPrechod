@@ -1,3 +1,5 @@
+package los;
+
 /**
   *
   * Beschreibung
@@ -6,22 +8,25 @@
   * @author 
   */
 
-public class ForSchleifeFakultaet {
+public class WhileSchleifeFakultaet {
   
   public static void main(String[] args) {
     
+    short zaehler;
     short zahl;
     int ergebnis;
     
+    zaehler = 0;
     zahl = 5;
-    ergebnis = 1;
+    ergebnis = 0;
     
-    for (short i = 1; i <= zahl; i++ ) {
-      ergebnis *= i;
-    } // end of for
+    while (zaehler <= zahl) { 
+      ergebnis = ergebnis + zaehler;
+      zaehler++;
+    } // end of while
     
     System.out.println("Das Ergebnis von " + zahl + "! ist: " + ergebnis);
     
   } // end of main
-
+  
 } // end of class Fakultaet
