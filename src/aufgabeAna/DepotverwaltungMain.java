@@ -12,8 +12,9 @@ public class DepotverwaltungMain {
 
 	public static void main(String[] args) {
 		int ANZ_WP = 100;
-		Depotverwaltung ma[];
 		double SummeGebuehrenDepots;
+
+		Depotverwaltung ma[];
 		ma = new Depotverwaltung[ANZ_WP];
 		ma[0] = new AktienN("159987");
 		ma[1] = new Rentenfonds("236547");

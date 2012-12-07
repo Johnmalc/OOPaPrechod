@@ -31,9 +31,8 @@ public class Main {
 	 * 
 	 * 
 	 */
-	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
-		//try {
+		try {
 		Scanner slovaInter = new Scanner(System.in);
 		System.out.println("Geben sie das Word");
 		String slovoInter1 = slovaInter.nextLine();
@@ -48,11 +47,11 @@ public class Main {
 		for (int i = 0; i < slovaArray.length; i++) {
 			System.out.println(slovaArray[i]);
 		}
-//		}catch (NullPointerException e) {
-//			System.out.println(e.getMessage());
-//		}catch (ClassCastException d) {
-//			System.out.println(d.getMessage());
-//		}
+		}catch (NullPointerException e) {
+			System.out.println(e.getMessage());
+		}catch (ClassCastException d) {
+			System.out.println(d.getMessage());
+		}
 
 }
 	}
