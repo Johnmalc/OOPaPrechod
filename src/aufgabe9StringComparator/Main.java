@@ -7,7 +7,9 @@ public class Main {
 
 	/**
 	 * @param args
-	 * @see http://www.javamex.com/tutorials/collections/sorting_comparator_example.shtml
+	 * @see http
+	 *      ://www.javamex.com/tutorials/collections/sorting_comparator_example
+	 *      .shtml
 	 * 
 	 *      Realisieren Sie ein Programm, das Strings nach Länge sortiert.
 	 *      Verwenden Sie dazu die Methode sort aus java.util. Dieser Methode
@@ -25,14 +27,22 @@ public class Main {
 	 * 
 	 * 
 	 * 
+	 *      a negative number if our object comes before the one passed in; a
+	 *      positive number if our object comes after the one passed in;
+	 *      otherwise, zero (meaning they're equal in terms of ordering).
 	 * 
 	 *      a negative number if (and only if) o1 comes before o2; a positive
 	 *      number if (and only if) o1 comes after o2; else 0.
 	 * 
+	 * Note that the magnitude of the number doesn't matter. 
+	 * The aim isn't to say "how different" the two objects are, 
+	 * just in which direction. So often, we may as well use
+	 *  -1 and 1 to mean "before" and "after" respectively. 
 	 * 
 	 */
 	public static void main(String[] args) throws Exception {
 		try {
+		@SuppressWarnings("resource")
 		Scanner slovaInter = new Scanner(System.in);
 		System.out.println("Geben sie das Word");
 		String slovoInter1 = slovaInter.nextLine();
