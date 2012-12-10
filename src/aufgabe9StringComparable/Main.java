@@ -21,6 +21,16 @@ public class Main {
 	 *  Diese Klasse sollten Sie dann wie üblich in einer
 	 * main-Methode testen. Überlegen Sie sich, ob Sie in main die Strings
 	 * interaktiv einlesen wollen.
+	 *
+	 *
+	 *
+	 * Dieses Interface schreibt vor, dass die Methode public int compareTo(T o)
+	 *überschrieben wird. Es ist Ihre Aufgabe in der Methode das aktuelle Objekt 
+	 *mit dem übergebenen Objekt zu vergleichen. Sollte das übergebene Objekt 
+	 *untergeordnet werden, geben Sie einen negativen Wert zurück, sollten die 
+	 *Objekte gleichwertig sein, geben Sie 0 zurück, ansonsten einen positiven Wert. 
+	 *
+	 *
 	 */
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
