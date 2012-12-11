@@ -39,6 +39,28 @@ public class Main {
 	 * just in which direction. So often, we may as well use
 	 *  -1 and 1 to mean "before" and "after" respectively. 
 	 * 
+	 * 
+	 * Source : http://www.java-blog-buch.de/d-objekte-sortieren-comparator-und-comparable/
+	 * 
+	 * negativer Rückgabewert: Der erste Parameter ist untergeordnet
+	 *0 als Rückgabewert: Beide Parameter werden gleich eingeordnet
+	 *positiver Rückgabewert: Der erste Parameter ist übergeordnet
+	 * 
+	 * 
+	 * Der Unterschied besteht darin, dass ein Comparator nicht von der zu vergleichenden Klasse 
+	 * implementiert werden muss. Dadurch können Sie auch einfach Objekte von
+	 * Klassen vergleichen, die
+	 * Sie nicht selbst geschrieben haben oder verändern dürfen. 
+	 * 
+	 * Der Vorteil eines Comparators liegt darin, dass das Kriterium, nach welchem sortiert
+	 * werden soll, einfach ausgetauscht werden kann.
+	 * 
+	 * 
+	 * This interface defines the method compare which performs pairwise comparison
+	 * of the elements and returns -1 if the
+	 * element is smaller then the compared element, 0 if it is equal and 1 if it is larger. 
+	 * 
+	 * 
 	 */
 	public static void main(String[] args) throws Exception {
 		try {
