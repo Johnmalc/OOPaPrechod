@@ -12,18 +12,22 @@ import Prog1Tools.Plotter;
  * Ellipse: a*sin(t),b*cos(t) Zahl aus Argument-String: mit Methode aus
  * Wrapper-Klasse Double
  */
-public class KreisPlot implements Inter {
-
-	Double cislo = new Double(5);
-	Double cis = new Double(8);
+public class KreisPlotMoje implements Plottable {
+	static double a = 20;
+	static double b = 65;
 
 	public static void main(String[] args) {
+		Plotter p = new Plotter(new KreisPlotMoje(a, b), "dsffdg");
 
-		Plotter p = new Plotter(new Plottable p, "ldskfn");
 		p.adjustGrid(1, 1);
 		p.showGrid(false);
 		p.setNumOfPoints(90);
 		p.setVisible(true);
+	}
+
+	public KreisPlotMoje(double a, double b) {
+		KreisPlotMoje.a = a;
+		KreisPlotMoje.b = b;
 	}
 
 	@Override
@@ -39,15 +43,15 @@ public class KreisPlot implements Inter {
 	}
 
 	@Override
-	public double x(double arg0) {
+	public double x(double t) {
 		// TODO Auto-generated method stub
-		return Math.sin(cislo);
+		return a * Math.sin(t);
 	}
 
 	@Override
-	public double y(double arg0) {
+	public double y(double t) {
 		// TODO Auto-generated method stub
-		return Math.cos(cis);
+		return b * Math.cos(t);
 	}
 
 }
