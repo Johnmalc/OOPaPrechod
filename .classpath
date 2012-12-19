@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-<<<<<<< HEAD
-=======
-	<classpathentry kind="lib" path="C:/Users/Dima/libs/Prog1Tools.zip"/>
-	<classpathentry kind="lib" path="C:/Users/Dima/libs/javaGeom-0.11.1.jar"/>
->>>>>>> e4c6433caa2d5a6237133ed8bc25b922c25b1431
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Dima/Documents/Prog1Tools.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

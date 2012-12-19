@@ -1,9 +1,14 @@
 *.class
 
 # Package Files #
+
 *.jar
+
 *.war
+
 *.ear
+
 *.uml
-*.classpath
+*.bin
+*classpath
 *.umlcd
