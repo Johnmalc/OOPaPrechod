@@ -1,4 +1,4 @@
-package interfaces;
+package aufgabe9StringComparable;
 
 public class StringL implements Comparable
 {

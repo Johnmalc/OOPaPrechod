@@ -40,9 +40,9 @@ public class Main {
 			}
 
 		case 2:
-			Hose ho;
-			Top to;
-			Top to2;
+//			Hose ho;
+//			Top to;
+//			Top to2;
 			// convert array list into object array
 			Object[] ol = ar.toArray();
 
@@ -51,13 +51,13 @@ public class Main {
 				System.out.println(ol[i]);
 			}
 			// for warenkorb anzeigen.
-			ar.add(ho.);
-			ar.add(to);
-			ar.add(to2);
-
-			System.out.println(ho.getBerechnung() + " " + ho.toString());
-			System.out.println(to.getBerechnung() + " " + to.toString());
-			System.out.println(to2.getBerechnung() + " " + to2.toString());
+			//ar.add(ho.);
+//			ar.add(to);
+//			ar.add(to2);
+//
+//			System.out.println(ho.getBerechnung() + " " + ho.toString());
+//			System.out.println(to.getBerechnung() + " " + to.toString());
+//			System.out.println(to2.getBerechnung() + " " + to2.toString());
 
 		}
 	}
