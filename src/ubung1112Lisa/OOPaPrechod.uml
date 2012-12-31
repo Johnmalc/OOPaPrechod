@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Q259AEPMEeKi8rczAjwpLg" name="OOPaPrechod">
+    <eAnnotations xmi:id="_Q5ungEPMEeKi8rczAjwpLg" source="http://www.yatta-solutions.com/umllab/codegen/codegenDirectory">
+      <details xmi:id="_Q5ungUPMEeKi8rczAjwpLg" key="codegenDirectory" value="/OOPaPrechod/src"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_RDPv9UPMEeKi8rczAjwpLg" source="com.yattasolutions.codegen.RoundTripInformation">
+      <details xmi:id="_RDPv9kPMEeKi8rczAjwpLg" key="AssociatedSourceCode" value="/OOPaPrechod/src/ubung1112Lisa/Elefant.java;2580114485/1;/OOPaPrechod/src/ubung1112Lisa/Gepard.java;3708149392/1;/OOPaPrechod/src/ubung1112Lisa/Hauptprogramm.java;230611981/1;/OOPaPrechod/src/ubung1112Lisa/Kaefig.java;3644255581/1;/OOPaPrechod/src/ubung1112Lisa/Saeugetier.java;3217761952/1;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_RBwiIEPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiIUPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiIkPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiI0PMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiJEPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiJUPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiJkPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiJ0PMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_RBwiKEPMEeKi8rczAjwpLg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RB6TIEPMEeKi8rczAjwpLg" name="ubung1112Lisa">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RCNOEEPMEeKi8rczAjwpLg" name="Elefant">
+        <generalization xmi:id="_RC808EPMEeKi8rczAjwpLg" general="_RCzrAEPMEeKi8rczAjwpLg"/>
+        <ownedAttribute xmi:id="_RDGl9UPMEeKi8rczAjwpLg" name="rlaenge" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDGmBUPMEeKi8rczAjwpLg" name="Elefant" specification="_RCNOFkPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGmBkPMEeKi8rczAjwpLg" name="namex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmB0PMEeKi8rczAjwpLg" name="alterx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmCEPMEeKi8rczAjwpLg" name="gewichtx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmCUPMEeKi8rczAjwpLg" name="rlaengex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmCkPMEeKi8rczAjwpLg" type="_RCNOEEPMEeKi8rczAjwpLg" direction="return"/>
+          <language>java</language>
+          <body>super(namex, alterx, gewichtx);&#xD;
+&#xD;
+		rlaenge = rlaengex;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDGmC0PMEeKi8rczAjwpLg" name="getLaenge" specification="_RCNOHkPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGmDEPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return rlaenge;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RCNOEUPMEeKi8rczAjwpLg" name="Elefant">
+          <eAnnotations xmi:id="_RCNOEkPMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCNOE0PMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCNOFUPMEeKi8rczAjwpLg" type="_RCNOEEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCNOFkPMEeKi8rczAjwpLg" name="Elefant" method="_RDGmBUPMEeKi8rczAjwpLg">
+          <eAnnotations xmi:id="_RCNOG0PMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCNOHEPMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCNOF0PMEeKi8rczAjwpLg" name="namex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCNOGEPMEeKi8rczAjwpLg" name="alterx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCNOGUPMEeKi8rczAjwpLg" name="gewichtx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCNOGkPMEeKi8rczAjwpLg" name="rlaengex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCNOHUPMEeKi8rczAjwpLg" type="_RCNOEEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCNOHkPMEeKi8rczAjwpLg" name="getLaenge" method="_RDGmC0PMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RCNOH0PMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RCW_EEPMEeKi8rczAjwpLg" name="Gepard">
+        <generalization xmi:id="_RC808UPMEeKi8rczAjwpLg" general="_RCzrAEPMEeKi8rczAjwpLg"/>
+        <ownedAttribute xmi:id="_RDGl90PMEeKi8rczAjwpLg" name="punkte" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDGmDUPMEeKi8rczAjwpLg" name="Gepard" specification="_RCW_FkPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGmDkPMEeKi8rczAjwpLg" name="namex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmD0PMEeKi8rczAjwpLg" name="alterx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmEEPMEeKi8rczAjwpLg" name="gewichtx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmEUPMEeKi8rczAjwpLg" name="punktex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDGmEkPMEeKi8rczAjwpLg" type="_RCW_EEPMEeKi8rczAjwpLg" direction="return"/>
+          <language>java</language>
+          <body>super(namex, alterx, gewichtx);&#xD;
+		punkte = punktex;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDGmE0PMEeKi8rczAjwpLg" name="getPunkte" specification="_RCW_HkPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGmFEPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return punkte;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RCW_EUPMEeKi8rczAjwpLg" name="Gepard">
+          <eAnnotations xmi:id="_RCW_EkPMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCW_E0PMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCW_FUPMEeKi8rczAjwpLg" type="_RCW_EEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCW_FkPMEeKi8rczAjwpLg" name="Gepard" method="_RDGmDUPMEeKi8rczAjwpLg">
+          <eAnnotations xmi:id="_RCW_G0PMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCW_HEPMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCW_F0PMEeKi8rczAjwpLg" name="namex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCW_GEPMEeKi8rczAjwpLg" name="alterx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCW_GUPMEeKi8rczAjwpLg" name="gewichtx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCW_GkPMEeKi8rczAjwpLg" name="punktex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCW_HUPMEeKi8rczAjwpLg" type="_RCW_EEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCW_HkPMEeKi8rczAjwpLg" name="getPunkte" method="_RDGmE0PMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RCW_H0PMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RCW_IEPMEeKi8rczAjwpLg" name="Hauptprogramm">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDGmFUPMEeKi8rczAjwpLg" name="main" specification="_RCW_IUPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGmFkPMEeKi8rczAjwpLg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RDGmF0PMEeKi8rczAjwpLg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int zufall;&#xD;
+		Kaefig K1 = new Kaefig();&#xD;
+		Kaefig K2 = new Kaefig();&#xD;
+&#xD;
+		zufall = (int) ((Math.random() * 2) + 1);&#xD;
+&#xD;
+		if (zufall == 1) {&#xD;
+			Gepard G1 = new Gepard();&#xD;
+			K1.addTier(G1);&#xD;
+		} // end of if&#xD;
+		else {&#xD;
+			Elefant E1 = new Elefant();&#xD;
+			K1.addTier(E1);&#xD;
+		} // end of if-else&#xD;
+&#xD;
+		Gepard G1 = K1.getGepard();&#xD;
+		if (G1 != null) {&#xD;
+			K2.addTier(G1);&#xD;
+		} // end of if&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RCW_IUPMEeKi8rczAjwpLg" name="main" isStatic="true" method="_RDGmFUPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RCW_IkPMEeKi8rczAjwpLg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RCW_I0PMEeKi8rczAjwpLg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RCW_JEPMEeKi8rczAjwpLg" name="Kaefig">
+        <ownedComment xmi:id="_ZF0fMEPMEeKi8rczAjwpLg">
+          <body>u ni je to bez eztends tady</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_RDGl-UPMEeKi8rczAjwpLg" name="kaefig" visibility="package" type="_RCzrAEPMEeKi8rczAjwpLg" association="_RDPv8kPMEeKi8rczAjwpLg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RDGl-kPMEeKi8rczAjwpLg" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RDGl_UPMEeKi8rczAjwpLg" name="zaehler" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDGmGEPMEeKi8rczAjwpLg" name="Kaefig" specification="_RCW_JUPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGmGUPMEeKi8rczAjwpLg" type="_RCW_JEPMEeKi8rczAjwpLg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>kaefig = new Saeugetier[8];&#xD;
+		zaehler = 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv4EPMEeKi8rczAjwpLg" name="addTier" specification="_RDGl8EPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv4UPMEeKi8rczAjwpLg" name="T1" type="_RCzrAEPMEeKi8rczAjwpLg"/>
+          <language>java</language>
+          <body>if (zaehler &lt; kaefig.length) {&#xD;
+			for (int i = 0; i &lt; kaefig.length; i++) {&#xD;
+				if (kaefig[i] == null) {&#xD;
+					kaefig[i] = T1;&#xD;
+					zaehler++;&#xD;
+				} // end of if&#xD;
+			} // end of for&#xD;
+		} // end of if&#xD;
+&#xD;
+		else {&#xD;
+			System.out.println(&quot;Kaefig ist voll&quot;);&#xD;
+		} // end of if-else&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv4kPMEeKi8rczAjwpLg" name="Scanner" specification="_RCp6AUPMEeKi8rczAjwpLg">
+          <language>java</language>
+          <body>for (int i = 0; i &lt; kaefig.length; i++) {&#xD;
+			if (kaefig[i] instanceof Gepard) {&#xD;
+				((Gepard) kaefig[i]).getPunkte();&#xD;
+				System.out.println(&quot;Das ist ein Gepard&quot;);&#xD;
+			} // end of if&#xD;
+&#xD;
+			else if (kaefig[i] instanceof Elefant) {&#xD;
+				((Elefant) kaefig[i]).getLaenge();&#xD;
+				System.out.println(&quot;Das ist ein Elefant&quot;);&#xD;
+			}&#xD;
+		} // end of for&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv40PMEeKi8rczAjwpLg" name="getGepard" specification="_RCp6AkPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv5EPMEeKi8rczAjwpLg" type="_RCW_EEPMEeKi8rczAjwpLg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; kaefig.length; i++) {&#xD;
+			if (kaefig[i] instanceof Gepard) {&#xD;
+				kaefig[i] = null;&#xD;
+				return (Gepard) kaefig[i];&#xD;
+			} // end of if&#xD;
+&#xD;
+		} // end of for&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv5UPMEeKi8rczAjwpLg" name="getElefant" specification="_RCp6A0PMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv5kPMEeKi8rczAjwpLg" type="_RCNOEEPMEeKi8rczAjwpLg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; kaefig.length; i++) {&#xD;
+			if (kaefig[i] instanceof Elefant) {&#xD;
+				kaefig[i] = null;&#xD;
+				return (Elefant) kaefig[i];&#xD;
+			} // end of if&#xD;
+&#xD;
+		} // end of for&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RCW_JUPMEeKi8rczAjwpLg" name="Kaefig" method="_RDGmGEPMEeKi8rczAjwpLg">
+          <eAnnotations xmi:id="_RCW_JkPMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCW_J0PMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCp6AEPMEeKi8rczAjwpLg" type="_RCW_JEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCp6AUPMEeKi8rczAjwpLg" name="Scanner" method="_RDPv4kPMEeKi8rczAjwpLg"/>
+        <ownedOperation xmi:id="_RCp6AkPMEeKi8rczAjwpLg" name="getGepard" method="_RDPv40PMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGl8kPMEeKi8rczAjwpLg" type="_RCW_EEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCp6A0PMEeKi8rczAjwpLg" name="getElefant" method="_RDPv5UPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGl80PMEeKi8rczAjwpLg" type="_RCNOEEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RDGl8EPMEeKi8rczAjwpLg" name="addTier" method="_RDPv4EPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDGl8UPMEeKi8rczAjwpLg" name="T1" type="_RCzrAEPMEeKi8rczAjwpLg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RCzrAEPMEeKi8rczAjwpLg" name="Saeugetier">
+        <ownedAttribute xmi:id="_RDGl_0PMEeKi8rczAjwpLg" name="name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RDGmAUPMEeKi8rczAjwpLg" name="alter" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RDGmA0PMEeKi8rczAjwpLg" name="gewicht" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv50PMEeKi8rczAjwpLg" name="Saeugetier" specification="_RCzrBkPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv6EPMEeKi8rczAjwpLg" name="namex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDPv6UPMEeKi8rczAjwpLg" name="alterx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDPv6kPMEeKi8rczAjwpLg" name="gewichtx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RDPv60PMEeKi8rczAjwpLg" type="_RCzrAEPMEeKi8rczAjwpLg" direction="return"/>
+          <language>java</language>
+          <body>name = namex;&#xD;
+		alter = alterx;&#xD;
+		gewicht = gewichtx;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv7EPMEeKi8rczAjwpLg" name="getName" specification="_RCzrDUPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv7UPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv7kPMEeKi8rczAjwpLg" name="getAlter" specification="_RCzrD0PMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv70PMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return alter;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RDPv8EPMEeKi8rczAjwpLg" name="getGewicht" specification="_RCzrEUPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RDPv8UPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return gewicht;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RCzrAUPMEeKi8rczAjwpLg" name="Saeugetier">
+          <eAnnotations xmi:id="_RCzrAkPMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCzrA0PMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCzrBUPMEeKi8rczAjwpLg" type="_RCzrAEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCzrBkPMEeKi8rczAjwpLg" name="Saeugetier" method="_RDPv50PMEeKi8rczAjwpLg">
+          <eAnnotations xmi:id="_RCzrCkPMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RCzrC0PMEeKi8rczAjwpLg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RCzrB0PMEeKi8rczAjwpLg" name="namex">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCzrCEPMEeKi8rczAjwpLg" name="alterx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCzrCUPMEeKi8rczAjwpLg" name="gewichtx">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RCzrDEPMEeKi8rczAjwpLg" type="_RCzrAEPMEeKi8rczAjwpLg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCzrDUPMEeKi8rczAjwpLg" name="getName" method="_RDPv7EPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RCzrDkPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCzrD0PMEeKi8rczAjwpLg" name="getAlter" method="_RDPv7kPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RCzrEEPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RCzrEUPMEeKi8rczAjwpLg" name="getGewicht" method="_RDPv8EPMEeKi8rczAjwpLg">
+          <ownedParameter xmi:id="_RCzrEkPMEeKi8rczAjwpLg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RDPv8kPMEeKi8rczAjwpLg" name="" memberEnd="_RDPv80PMEeKi8rczAjwpLg _RDGl-UPMEeKi8rczAjwpLg">
+        <ownedEnd xmi:id="_RDPv80PMEeKi8rczAjwpLg" name="" type="_RCW_JEPMEeKi8rczAjwpLg" association="_RDPv8kPMEeKi8rczAjwpLg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Q5ungkPMEeKi8rczAjwpLg">
+      <eAnnotations xmi:id="_Q5ung0PMEeKi8rczAjwpLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Q5unhEPMEeKi8rczAjwpLg" base_Package="_Q259AEPMEeKi8rczAjwpLg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RCNOFEPMEeKi8rczAjwpLg" base_Element="_RCNOEUPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RCW_FEPMEeKi8rczAjwpLg" base_Element="_RCW_EUPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RCzrBEPMEeKi8rczAjwpLg" base_Element="_RCzrAUPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGl9kPMEeKi8rczAjwpLg" base_Element="_RDGl9UPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGl-EPMEeKi8rczAjwpLg" base_Element="_RDGl90PMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:Array xmi:id="_RDGl-0PMEeKi8rczAjwpLg" dimensions="1" base_Element="_RDGl-UPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGl_EPMEeKi8rczAjwpLg" base_Element="_RDGl-UPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGl_kPMEeKi8rczAjwpLg" base_Element="_RDGl_UPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGmAEPMEeKi8rczAjwpLg" base_Element="_RDGl_0PMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGmAkPMEeKi8rczAjwpLg" base_Element="_RDGmAUPMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RDGmBEPMEeKi8rczAjwpLg" base_Element="_RDGmA0PMEeKi8rczAjwpLg"/>
+  <UMLLabProfile:Reference xmi:id="_RDPv9EPMEeKi8rczAjwpLg" base_Element="_RDPv8kPMEeKi8rczAjwpLg"/>
+</xmi:XMI>

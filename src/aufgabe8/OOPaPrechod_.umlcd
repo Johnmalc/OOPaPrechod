@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_eQ4xwDu8EeKJvcLnVfeI7Q">
+  <modelElement href="OOPaPrechod.uml#_c3LM0Du8EeKJvcLnVfeI7Q"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_evicoDu8EeKJvcLnVfeI7Q" name="aufgabe8">
+    <modelElement href="OOPaPrechod.uml#_dbVCwDu8EeKJvcLnVfeI7Q"/>
+    <visualProperties xmi:id="_evicoTu8EeKJvcLnVfeI7Q" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_ewk-cDu8EeKJvcLnVfeI7Q" name="java">
+    <modelElement href="OOPaPrechod.uml#_dbn9sDu8EeKJvcLnVfeI7Q"/>
+    <visualProperties xmi:id="_ewk-cTu8EeKJvcLnVfeI7Q" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

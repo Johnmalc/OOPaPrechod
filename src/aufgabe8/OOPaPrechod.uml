@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_c3LM0Du8EeKJvcLnVfeI7Q" name="OOPaPrechod">
+    <eAnnotations xmi:id="_c5HGgDu8EeKJvcLnVfeI7Q" source="http://www.yatta-solutions.com/umllab/codegen/codegenDirectory">
+      <details xmi:id="_c5HGgTu8EeKJvcLnVfeI7Q" key="codegenDirectory" value="/OOPaPrechod/src"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_diBgoDu8EeKJvcLnVfeI7Q" source="com.yattasolutions.codegen.RoundTripInformation">
+      <details xmi:id="_diBgoTu8EeKJvcLnVfeI7Q" key="AssociatedSourceCode" value="/OOPaPrechod/src/aufgabe8/Aktienfond_Menge.java;2316582104/1;/OOPaPrechod/src/aufgabe8/DreiVerwaltungen.java;4191924567/1;/OOPaPrechod/src/aufgabe8/Main.java;1393612644/1;/OOPaPrechod/src/aufgabe8/Microsoft.java;3276312428/1;/OOPaPrechod/src/aufgabe8/Rentefonds.java;3564369958/1;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_daul0Du8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_daul0Tu8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_daul0ju8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_daul0zu8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_daul1Du8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_daul1Tu8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_daul1ju8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_daul1zu8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_daul2Du8EeKJvcLnVfeI7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dbVCwDu8EeKJvcLnVfeI7Q" name="aufgabe8">
+      <packagedElement xmi:type="uml:Class" xmi:id="_dc0QgDu8EeKJvcLnVfeI7Q" name="Aktienfond_Menge">
+        <generalization xmi:id="_dfo7ADu8EeKJvcLnVfeI7Q" general="_ddtBWTu8EeKJvcLnVfeI7Q"/>
+        <ownedAttribute xmi:id="_dgFm8Du8EeKJvcLnVfeI7Q" name="name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgFm8Tu8EeKJvcLnVfeI7Q" value="&quot;My hedge Fund&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgFm8zu8EeKJvcLnVfeI7Q" name="identifier" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgFm9Du8EeKJvcLnVfeI7Q" value="&quot;MhF&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgFm9ju8EeKJvcLnVfeI7Q" name="kapital">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgFm-Du8EeKJvcLnVfeI7Q" name="zakladovka">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgPX8Tu8EeKJvcLnVfeI7Q" name="aktienAnzahl">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgPX8zu8EeKJvcLnVfeI7Q" name="differenz">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N0Du8EeKJvcLnVfeI7Q" name="Aktienfond_Menge" specification="_ddQ8cDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N0Tu8EeKJvcLnVfeI7Q" name="kapitalX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg1N0ju8EeKJvcLnVfeI7Q" name="zakladovkaX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg1N0zu8EeKJvcLnVfeI7Q" name="aktienAnzahl">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg1N1Du8EeKJvcLnVfeI7Q" type="_dc0QgDu8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.kapital = kapitalX;&#xD;
+		this.zakladovka = zakladovkaX;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N1Tu8EeKJvcLnVfeI7Q" name="getValue" specification="_ddQ8dzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N1ju8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double newValue = kapital * zakladovka;&#xD;
+		double newRounded = Math.round(newValue);&#xD;
+		return newRounded;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N1zu8EeKJvcLnVfeI7Q" name="toStringNon" specification="_ddaGYzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N2Du8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name + &quot; &quot; + identifier + &quot; &quot; + kapital + &quot;&quot; + zakladovka;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N2Tu8EeKJvcLnVfeI7Q" name="getSagHallo" specification="_ddaGaDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N2ju8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String a = name + &quot; sagt Aufwiedersehen&quot;;&#xD;
+		return a;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N2zu8EeKJvcLnVfeI7Q" name="berechneGebuhr" specification="_ddj3ZDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N3Du8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double berechnung = getValue() + (AktienfondsGebuhr2 * getValue())&#xD;
+				+ AktienfondsGebuhr;&#xD;
+		return berechnung;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N3Tu8EeKJvcLnVfeI7Q" name="setBuyHedgefond" specification="_ddj3aTu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N3ju8EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg1N3zu8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double newV = zakladovka * aktienAnzahl;&#xD;
+		return newV;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N4Du8EeKJvcLnVfeI7Q" name="getDefferenz" specification="_ddj3bzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N4Tu8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double differenz = berechneGebuhr() - getValue();&#xD;
+		return differenz;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N4ju8EeKJvcLnVfeI7Q" name="setSell" specification="_ddj3cTu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N4zu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg1N5Du8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg1N5Tu8EeKJvcLnVfeI7Q" name="setBuy" specification="_ddtBUzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg1N5ju8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg1N5zu8EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ddQ8cDu8EeKJvcLnVfeI7Q" name="Aktienfond_Menge" method="_dg1N0Du8EeKJvcLnVfeI7Q">
+          <eAnnotations xmi:id="_ddQ8dDu8EeKJvcLnVfeI7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ddQ8dTu8EeKJvcLnVfeI7Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ddQ8cTu8EeKJvcLnVfeI7Q" name="kapitalX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ddQ8cju8EeKJvcLnVfeI7Q" name="zakladovkaX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ddQ8czu8EeKJvcLnVfeI7Q" name="aktienAnzahl">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ddQ8dju8EeKJvcLnVfeI7Q" type="_dc0QgDu8EeKJvcLnVfeI7Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddQ8dzu8EeKJvcLnVfeI7Q" name="getValue" method="_dg1N1Tu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddQ8eDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddaGYzu8EeKJvcLnVfeI7Q" name="toStringNon" method="_dg1N1zu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddaGZDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddaGaDu8EeKJvcLnVfeI7Q" name="getSagHallo" method="_dg1N2Tu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddj3YDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddj3ZDu8EeKJvcLnVfeI7Q" name="berechneGebuhr" method="_dg1N2zu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddj3ZTu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddj3aTu8EeKJvcLnVfeI7Q" name="setBuyHedgefond" method="_dg1N3Tu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddj3aju8EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ddj3azu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddj3bzu8EeKJvcLnVfeI7Q" name="getDefferenz" method="_dg1N4Du8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddj3cDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddj3cTu8EeKJvcLnVfeI7Q" name="setSell" method="_dg1N4ju8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddj3cju8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ddj3czu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ddtBUzu8EeKJvcLnVfeI7Q" name="setBuy" method="_dg1N5Tu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_ddtBVDu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ddtBVTu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ddtBWTu8EeKJvcLnVfeI7Q" name="DreiVerwaltungen" isAbstract="true">
+        <ownedAttribute xmi:id="_dgPX9Tu8EeKJvcLnVfeI7Q" name="RentenfondsGebruh">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgPX9ju8EeKJvcLnVfeI7Q" value="0.05"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgPX-Du8EeKJvcLnVfeI7Q" name="AktienfondsGebuhr">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgPX-Tu8EeKJvcLnVfeI7Q" value="30"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgPX-zu8EeKJvcLnVfeI7Q" name="AktienfondsGebuhr2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgPX_Du8EeKJvcLnVfeI7Q" value="0.2"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgPX_ju8EeKJvcLnVfeI7Q" name="AktienGebuhr">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgPX_zu8EeKJvcLnVfeI7Q" value="0.5"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_t7X4Mju9EeKJvcLnVfeI7Q" name="name" visibility="public" association="_t7hpMzu9EeKJvcLnVfeI7Q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_t7hpMTu9EeKJvcLnVfeI7Q" name="kennnung" visibility="public" association="_t7hpNju9EeKJvcLnVfeI7Q">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_ddtBWju8EeKJvcLnVfeI7Q" name="getValue" isAbstract="true">
+          <ownedComment xmi:id="_dhR5wDu8EeKJvcLnVfeI7Q">
+            <body>This is &quot;Wert&quot;. This is the only method which is going to be inharitated</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ddtBWzu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dd2yUDu8EeKJvcLnVfeI7Q" name="setSell" isAbstract="true">
+          <ownedComment xmi:id="_dhR5wTu8EeKJvcLnVfeI7Q">
+            <body>These method would be same for all instances but hardcoded&#xD;
+	 * Only for Aktien-Microsoft</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_dd2yUTu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dd2yUju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dd2yUzu8EeKJvcLnVfeI7Q" name="setBuy" isAbstract="true">
+          <ownedParameter xmi:id="_dd2yVDu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dd2yVTu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dd2yVju8EeKJvcLnVfeI7Q" name="berechneGebuhr" isAbstract="true">
+          <ownedParameter xmi:id="_dd2yVzu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dd2yWDu8EeKJvcLnVfeI7Q" name="setBuyHedgefond" isAbstract="true">
+          <ownedComment xmi:id="_dhR5wju8EeKJvcLnVfeI7Q">
+            <body>return zakladovka * anzahl aktien bei AktienfondMenge</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_dd2yWTu8EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dd2yWju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dd2yWzu8EeKJvcLnVfeI7Q" name="toStringNon" isAbstract="true">
+          <ownedComment xmi:id="_dhR5wzu8EeKJvcLnVfeI7Q">
+            <body>(non-Javadoc) For each new share you have a new toString method For&#xD;
+	 * printing of name, identifier, quantity, price together&#xD;
+	 * Applies for all of them</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_dd2yXDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dd2yXTu8EeKJvcLnVfeI7Q" name="getSagHallo" isAbstract="true">
+          <ownedComment xmi:id="_dhR5xDu8EeKJvcLnVfeI7Q">
+            <body>For array of shares. It says hallo to you.&#xD;
+	 * Applies for all of them</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_dd2yXju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dd2yXzu8EeKJvcLnVfeI7Q" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg--0Du8EeKJvcLnVfeI7Q" name="main" specification="_deAjUDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg--0Tu8EeKJvcLnVfeI7Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dg--0ju8EeKJvcLnVfeI7Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Rentefonds rente = new Rentefonds();&#xD;
+&#xD;
+		System.out.println(&quot;wahlen sie ihre veraltung&quot;);&#xD;
+		int vyber = new Scanner(System.in).nextInt();&#xD;
+		switch (vyber) {&#xD;
+&#xD;
+		case 100_000:&#xD;
+&#xD;
+			/*&#xD;
+			 * Object for Microsoft&#xD;
+			 */&#xD;
+			System.out.println(&quot;Sie habe AktienProgramm gewalt&quot;);&#xD;
+&#xD;
+			System.out.println(&quot;Wie viel aktien haben sie schon ?&quot;);&#xD;
+			int r = new Scanner(System.in).nextInt();&#xD;
+&#xD;
+			System.out&#xD;
+					.println(&quot;Welchen Preis stellen sie ? Nur mit , nich punkt &quot;);&#xD;
+			double b = new Scanner(System.in).nextDouble();&#xD;
+&#xD;
+			System.out.println(&quot;Wie viel aktien wollen sie kaufen ?&quot;);&#xD;
+			int c = new Scanner(System.in).nextInt();&#xD;
+&#xD;
+			System.out.println(&quot;Wie viel aktien wollen danach sie verkaufen ?&quot;);&#xD;
+			int s = new Scanner(System.in).nextInt();&#xD;
+&#xD;
+			// 1. price 2. quantity&#xD;
+			Microsoft share2 = new Microsoft(b, c, r);&#xD;
+			System.out.println(&quot;Sie haben schon &quot; + r);&#xD;
+			System.out.println(&quot;sie kaufen aktien - anzahl &quot; + c);&#xD;
+			System.out.println(&quot;Sie kaufen aktien fur &quot; + b);&#xD;
+			System.out.println(&quot;Sie verkaufen spater  aktien fur &quot; + s);&#xD;
+			System.out.println();&#xD;
+			System.out.println(share2.toStringNon());&#xD;
+			// &quot;wert insgesamt&quot;&#xD;
+			System.out&#xD;
+					.println(&quot;The value of the share is &quot; + share2.getValue());&#xD;
+			System.out.println(&quot;Diese einkauf kostet sie zusammen &quot;&#xD;
+					+ share2.berechneGebuhr());&#xD;
+			/*&#xD;
+			 * &quot;Verkaufen und kaufen&quot;&#xD;
+			 */&#xD;
+			System.out.println(share2.setBuy(r));&#xD;
+			System.out.println(share2.setSell(s));&#xD;
+			System.out.println(share2.getSagHallo());&#xD;
+&#xD;
+			System.out.println(&quot;\n&quot;);&#xD;
+			System.out.println(&quot;\n&quot;);&#xD;
+			System.out.println();&#xD;
+			// uzavira 1. case&#xD;
+			;&#xD;
+		case 200_000:&#xD;
+&#xD;
+			/*&#xD;
+			 * Object for My Hedge Fund (Aktien-Menge)&#xD;
+			 */&#xD;
+			System.out.println(&quot;Sie habe Hedge Fond Programm gewalt&quot;);&#xD;
+&#xD;
+			System.out&#xD;
+					.println(&quot;Welchen Kapital besitzt ihres HedgeFond auf der Borse&quot;);&#xD;
+			double kapital = new Scanner(System.in).nextDouble();&#xD;
+&#xD;
+			System.out&#xD;
+					.println(&quot;Welchen Wert (Start-value) haben die aktien des Hedgefonds&quot;);&#xD;
+			double zakladovka = new Scanner(System.in).nextDouble();&#xD;
+&#xD;
+			System.out&#xD;
+					.println(&quot;Wie viel aktien des Hedgefonds wollen sie kaufen(nimmt eingabe * zakladovka)&quot;);&#xD;
+			double aktienAnzahl = new Scanner(System.in).nextDouble();&#xD;
+&#xD;
+			Aktienfond_Menge aktienf = new Aktienfond_Menge(kapital,&#xD;
+					zakladovka, aktienAnzahl);&#xD;
+			System.out.println(&quot;Den jauf wir sie &quot; + aktienf.berechneGebuhr()&#xD;
+					+ &quot; zusammen kosten&quot;);&#xD;
+			System.out.println(&quot;Welchen wert besitzen hedgefond auf der borse &quot;&#xD;
+					+ aktienf.getValue());&#xD;
+			System.out.println(aktienf.getDefferenz());&#xD;
+			;&#xD;
+		case 300_000:&#xD;
+			&#xD;
+			;&#xD;
+		default : System.out.println(&quot;Sie mussen entweder: 100000, oder 200000 oder 300000 eingeben &quot;);&#xD;
+			&#xD;
+&#xD;
+			/*&#xD;
+			 * If in comments it will print Error These lines print either&#xD;
+			 * Fehler in case 131-136 are in comments or nothing in case&#xD;
+			 * everything is in comments If not then the last share will be&#xD;
+			 * printed 4 times (here Volskwagen)&#xD;
+			 */&#xD;
+			// for (int i = 0; i&lt;4; i++) {&#xD;
+			// shares[i] = new Google(e,r);&#xD;
+			// shares[i] = new GoldmanSachs(a,d);&#xD;
+			// shares[i] = new Microsoft(b,c);&#xD;
+			// shares[i] = new Volkswagen(a,d);&#xD;
+			// }&#xD;
+			// for (int i = 0; i &lt; shares.length; i++) {&#xD;
+			// if(shares[i] == null) {&#xD;
+			// System.out.println(&quot;Fehler&quot;);&#xD;
+			// }else {&#xD;
+			// System.out.println(shares[i].getSagHallo());&#xD;
+			// }&#xD;
+			// }&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_deAjUDu8EeKJvcLnVfeI7Q" name="main" isStatic="true" method="_dg--0Du8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_deAjUTu8EeKJvcLnVfeI7Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_deAjUzu8EeKJvcLnVfeI7Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_deJtRDu8EeKJvcLnVfeI7Q" name="Microsoft">
+        <generalization xmi:id="_df718Tu8EeKJvcLnVfeI7Q" general="_ddtBWTu8EeKJvcLnVfeI7Q"/>
+        <ownedAttribute xmi:id="_dgYh4Du8EeKJvcLnVfeI7Q" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgYh4Tu8EeKJvcLnVfeI7Q" value="&quot;Microsoft&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgYh4zu8EeKJvcLnVfeI7Q" name="identifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dgYh5Du8EeKJvcLnVfeI7Q" value="&quot;MICR&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgYh5ju8EeKJvcLnVfeI7Q" name="price">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgYh6Du8EeKJvcLnVfeI7Q" name="quantity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgYh6ju8EeKJvcLnVfeI7Q" name="youHaveAlready">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dgYh7Du8EeKJvcLnVfeI7Q" name="newQuantity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg--0zu8EeKJvcLnVfeI7Q" name="Microsoft" specification="_deTeQDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg--1Du8EeKJvcLnVfeI7Q" name="priceX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg--1Tu8EeKJvcLnVfeI7Q" name="quantityX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg--1ju8EeKJvcLnVfeI7Q" name="r">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg--1zu8EeKJvcLnVfeI7Q" type="_deJtRDu8EeKJvcLnVfeI7Q" direction="return"/>
+          <language>java</language>
+          <body>this.price = priceX;&#xD;
+		this.youHaveAlready = r;&#xD;
+		this.quantity = quantityX;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dg--2Du8EeKJvcLnVfeI7Q" name="setBuy" specification="_decoMDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dg--2Tu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dg--2ju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>newQuantity = quantity + this.quantity;&#xD;
+		return &quot;Now you have (newquantity)&quot; + newQuantity + &quot;\n&quot;&#xD;
+				+ &quot;Now you have bought &quot; + name + &quot; for &quot; + price&#xD;
+				+ &quot;. You own &quot; + newQuantity + &quot;.&quot;;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dhIIwDu8EeKJvcLnVfeI7Q" name="setSell" specification="_decoNju8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dhIIwTu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dhIIwju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>newQuantity = this.quantity - quantity;&#xD;
+		return &quot;Now you have sold &quot; + name&#xD;
+				+ &quot; for &quot; + price + &quot;. You own &quot; + newQuantity + &quot;.&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dhIIwzu8EeKJvcLnVfeI7Q" name="getValue" specification="_decoPDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dhIIxDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double newValue = price * quantity;&#xD;
+		double newRounded = Math.round(newValue);&#xD;
+		return newRounded;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dhIIxTu8EeKJvcLnVfeI7Q" name="toStringNon" specification="_decoQTu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dhIIxju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name + &quot; &quot; + identifier + &quot; &quot; + price + &quot; &quot; + quantity + &quot; &quot;&#xD;
+				+ youHaveAlready;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dhIIxzu8EeKJvcLnVfeI7Q" name="getSagHallo" specification="_dfDFIDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dhIIyDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String a = name + &quot; sagt Aufwiedersehen&quot;;&#xD;
+		return a;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dhIIyTu8EeKJvcLnVfeI7Q" name="berechneGebuhr" specification="_dfDFJTu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dhIIyju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double berechnung = getValue() + AktienGebuhr * getValue();&#xD;
+		return berechnung;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dhIIyzu8EeKJvcLnVfeI7Q" name="setBuyHedgefond" specification="_dfMPEzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dhIIzDu8EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dhIIzTu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_deTeQDu8EeKJvcLnVfeI7Q" name="Microsoft" method="_dg--0zu8EeKJvcLnVfeI7Q">
+          <eAnnotations xmi:id="_deTeRDu8EeKJvcLnVfeI7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_deTeRTu8EeKJvcLnVfeI7Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_deTeQTu8EeKJvcLnVfeI7Q" name="priceX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_deTeQju8EeKJvcLnVfeI7Q" name="quantityX">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_deTeQzu8EeKJvcLnVfeI7Q" name="r">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_deTeRju8EeKJvcLnVfeI7Q" type="_deJtRDu8EeKJvcLnVfeI7Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_decoMDu8EeKJvcLnVfeI7Q" name="setBuy" method="_dg--2Du8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_decoMTu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_decoMju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_decoNju8EeKJvcLnVfeI7Q" name="setSell" method="_dhIIwDu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_decoNzu8EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_decoODu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_decoPDu8EeKJvcLnVfeI7Q" name="getValue" method="_dhIIwzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_decoPTu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_decoQTu8EeKJvcLnVfeI7Q" name="toStringNon" method="_dhIIxTu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_demZMDu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dfDFIDu8EeKJvcLnVfeI7Q" name="getSagHallo" method="_dhIIxzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dfDFITu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dfDFJTu8EeKJvcLnVfeI7Q" name="berechneGebuhr" method="_dhIIyTu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dfDFJju8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_dfMPEzu8EeKJvcLnVfeI7Q" name="setBuyHedgefond" method="_dhIIyzu8EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_dfMPFDu8EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_dfMPFTu8EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dfMPGTu8EeKJvcLnVfeI7Q" name="Rentefonds">
+        <generalization xmi:id="_hlJibDu9EeKJvcLnVfeI7Q" general="_ddtBWTu8EeKJvcLnVfeI7Q"/>
+        <ownedAttribute xmi:id="_AH4r8Du-EeKJvcLnVfeI7Q" name="name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_AH4r8Tu-EeKJvcLnVfeI7Q" value="&quot;Rentefonds&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_AH4r8zu-EeKJvcLnVfeI7Q" name="identifier" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_AH4r9Du-EeKJvcLnVfeI7Q" value="&quot;RF&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_AH4r9ju-EeKJvcLnVfeI7Q" name="kapital">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_AH4r-Du-EeKJvcLnVfeI7Q" name="zakladovka">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_AH4r-ju-EeKJvcLnVfeI7Q" name="aktienAnzahl">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_AH4r_Du-EeKJvcLnVfeI7Q" name="differenz">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEYDu9EeKJvcLnVfeI7Q" name="getValue" specification="_hlJiYDu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEYTu9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEYju9EeKJvcLnVfeI7Q" name="setSell" specification="_hlTTZDu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEYzu9EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hldEZDu9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEZTu9EeKJvcLnVfeI7Q" name="setBuy" specification="_hlTTaju9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEZju9EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hldEZzu9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEaDu9EeKJvcLnVfeI7Q" name="berechneGebuhr" specification="_hlJiYzu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEaTu9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double a = RentenfondsGebruh * getValue();&#xD;
+		return a;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEaju9EeKJvcLnVfeI7Q" name="setBuyHedgefond" specification="_hlTTcTu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEazu9EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hldEbDu9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEbTu9EeKJvcLnVfeI7Q" name="toStringNon" specification="_hlJiZju9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEbju9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hldEbzu9EeKJvcLnVfeI7Q" name="getSagHallo" specification="_hlJiaTu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hldEcDu9EeKJvcLnVfeI7Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hlJiYDu9EeKJvcLnVfeI7Q" name="getValue" method="_hldEYDu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTYzu9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hlJiYzu9EeKJvcLnVfeI7Q" name="berechneGebuhr" method="_hldEaDu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTcDu9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hlJiZju9EeKJvcLnVfeI7Q" name="toStringNon" method="_hldEbTu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTdzu9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hlJiaTu9EeKJvcLnVfeI7Q" name="getSagHallo" method="_hldEbzu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTeDu9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hlTTZDu9EeKJvcLnVfeI7Q" name="setSell" method="_hldEYju9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTZTu9EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hlTTZju9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hlTTaju9EeKJvcLnVfeI7Q" name="setBuy" method="_hldEZTu9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTazu9EeKJvcLnVfeI7Q" name="quantity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hlTTbDu9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hlTTcTu9EeKJvcLnVfeI7Q" name="setBuyHedgefond" method="_hldEaju9EeKJvcLnVfeI7Q">
+          <ownedParameter xmi:id="_hlTTcju9EeKJvcLnVfeI7Q" name="zakladovka">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hlTTczu9EeKJvcLnVfeI7Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_AHlxADu-EeKJvcLnVfeI7Q" name="Rentefonds">
+          <eAnnotations xmi:id="_AHlxATu-EeKJvcLnVfeI7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_AHlxAju-EeKJvcLnVfeI7Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_AHlxAzu-EeKJvcLnVfeI7Q" type="_dfMPGTu8EeKJvcLnVfeI7Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_t7X4MDu9EeKJvcLnVfeI7Q" name="public"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_t7hpMzu9EeKJvcLnVfeI7Q" name="" memberEnd="_t7hpNDu9EeKJvcLnVfeI7Q _t7X4Mju9EeKJvcLnVfeI7Q">
+        <ownedEnd xmi:id="_t7hpNDu9EeKJvcLnVfeI7Q" name="" type="_ddtBWTu8EeKJvcLnVfeI7Q" association="_t7hpMzu9EeKJvcLnVfeI7Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_t7hpNju9EeKJvcLnVfeI7Q" name="" memberEnd="_t7hpNzu9EeKJvcLnVfeI7Q _t7hpMTu9EeKJvcLnVfeI7Q">
+        <ownedEnd xmi:id="_t7hpNzu9EeKJvcLnVfeI7Q" name="" type="_ddtBWTu8EeKJvcLnVfeI7Q" association="_t7hpNju9EeKJvcLnVfeI7Q"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dbn9sDu8EeKJvcLnVfeI7Q" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dbn9sTu8EeKJvcLnVfeI7Q" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_dfysADu8EeKJvcLnVfeI7Q" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_c5HGgju8EeKJvcLnVfeI7Q">
+      <eAnnotations xmi:id="_c5QQcDu8EeKJvcLnVfeI7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_c5aBcDu8EeKJvcLnVfeI7Q" base_Package="_c3LM0Du8EeKJvcLnVfeI7Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddaGYDu8EeKJvcLnVfeI7Q" base_Element="_ddQ8dzu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddaGYTu8EeKJvcLnVfeI7Q" base_Element="_ddQ8dzu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddaGYju8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddaGZTu8EeKJvcLnVfeI7Q" base_Element="_ddaGYzu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddaGZju8EeKJvcLnVfeI7Q" base_Element="_ddaGYzu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddaGZzu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddj3YTu8EeKJvcLnVfeI7Q" base_Element="_ddaGaDu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddj3Yju8EeKJvcLnVfeI7Q" base_Element="_ddaGaDu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddj3Yzu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddj3Zju8EeKJvcLnVfeI7Q" base_Element="_ddj3ZDu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddj3Zzu8EeKJvcLnVfeI7Q" base_Element="_ddj3ZDu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddj3aDu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddj3bDu8EeKJvcLnVfeI7Q" base_Element="_ddj3aTu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddj3bTu8EeKJvcLnVfeI7Q" base_Element="_ddj3aTu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddj3bju8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddtBUDu8EeKJvcLnVfeI7Q" base_Element="_ddj3cTu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddtBUTu8EeKJvcLnVfeI7Q" base_Element="_ddj3cTu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddtBUju8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ddtBVju8EeKJvcLnVfeI7Q" base_Element="_ddtBUzu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ddtBVzu8EeKJvcLnVfeI7Q" base_Element="_ddtBUzu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_ddtBWDu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_deAjUju8EeKJvcLnVfeI7Q" base_Element="_deAjUDu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Array xmi:id="_deJtQDu8EeKJvcLnVfeI7Q" dimensions="1" base_Element="_deAjUTu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_deJtQTu8EeKJvcLnVfeI7Q" base_Element="_deAjUDu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_deJtQju8EeKJvcLnVfeI7Q" name="SuppressWarnings">
+      <annotationParameters xmi:id="_deJtQzu8EeKJvcLnVfeI7Q" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_dhR5xTu8EeKJvcLnVfeI7Q" value="&quot;resource&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_decoMzu8EeKJvcLnVfeI7Q" base_Element="_decoMDu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_decoNDu8EeKJvcLnVfeI7Q" base_Element="_decoMDu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_decoNTu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_decoOTu8EeKJvcLnVfeI7Q" base_Element="_decoNju8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_decoOju8EeKJvcLnVfeI7Q" base_Element="_decoNju8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_decoOzu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_decoPju8EeKJvcLnVfeI7Q" base_Element="_decoPDu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_decoPzu8EeKJvcLnVfeI7Q" base_Element="_decoPDu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_decoQDu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_demZMTu8EeKJvcLnVfeI7Q" base_Element="_decoQTu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_demZMju8EeKJvcLnVfeI7Q" base_Element="_decoQTu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_demZMzu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfDFIju8EeKJvcLnVfeI7Q" base_Element="_dfDFIDu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_dfDFIzu8EeKJvcLnVfeI7Q" base_Element="_dfDFIDu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_dfDFJDu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfMPEDu8EeKJvcLnVfeI7Q" base_Element="_dfDFJTu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_dfMPETu8EeKJvcLnVfeI7Q" base_Element="_dfDFJTu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_dfMPEju8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dfMPFju8EeKJvcLnVfeI7Q" base_Element="_dfMPEzu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_dfMPFzu8EeKJvcLnVfeI7Q" base_Element="_dfMPEzu8EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_dfMPGDu8EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_df718Du8EeKJvcLnVfeI7Q" base_Element="_dfysADu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgFm8ju8EeKJvcLnVfeI7Q" base_Element="_dgFm8Du8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgFm9Tu8EeKJvcLnVfeI7Q" base_Element="_dgFm8zu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgFm9zu8EeKJvcLnVfeI7Q" base_Element="_dgFm9ju8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPX8Du8EeKJvcLnVfeI7Q" base_Element="_dgFm-Du8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPX8ju8EeKJvcLnVfeI7Q" base_Element="_dgPX8Tu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPX9Du8EeKJvcLnVfeI7Q" base_Element="_dgPX8zu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPX9zu8EeKJvcLnVfeI7Q" base_Element="_dgPX9Tu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPX-ju8EeKJvcLnVfeI7Q" base_Element="_dgPX-Du8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPX_Tu8EeKJvcLnVfeI7Q" base_Element="_dgPX-zu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgPYADu8EeKJvcLnVfeI7Q" base_Element="_dgPX_ju8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgYh4ju8EeKJvcLnVfeI7Q" base_Element="_dgYh4Du8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgYh5Tu8EeKJvcLnVfeI7Q" base_Element="_dgYh4zu8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgYh5zu8EeKJvcLnVfeI7Q" base_Element="_dgYh5ju8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgYh6Tu8EeKJvcLnVfeI7Q" base_Element="_dgYh6Du8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgYh6zu8EeKJvcLnVfeI7Q" base_Element="_dgYh6ju8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dgYh7Tu8EeKJvcLnVfeI7Q" base_Element="_dgYh7Du8EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_hlJiYTu9EeKJvcLnVfeI7Q" base_Element="_hlJiYDu9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlJiYju9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_hlJiZDu9EeKJvcLnVfeI7Q" base_Element="_hlJiYzu9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlJiZTu9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_hlJiZzu9EeKJvcLnVfeI7Q" base_Element="_hlJiZju9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlJiaDu9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_hlJiaju9EeKJvcLnVfeI7Q" base_Element="_hlJiaTu9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlJiazu9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlJibTu9EeKJvcLnVfeI7Q" base_Element="_hlJiYDu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlTTYDu9EeKJvcLnVfeI7Q" base_Element="_hlJiYzu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlTTYTu9EeKJvcLnVfeI7Q" base_Element="_hlJiZju9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlTTYju9EeKJvcLnVfeI7Q" base_Element="_hlJiaTu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlTTZzu9EeKJvcLnVfeI7Q" base_Element="_hlTTZDu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_hlTTaDu9EeKJvcLnVfeI7Q" base_Element="_hlTTZDu9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlTTaTu9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlTTbTu9EeKJvcLnVfeI7Q" base_Element="_hlTTaju9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_hlTTbju9EeKJvcLnVfeI7Q" base_Element="_hlTTaju9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlTTbzu9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hlTTdDu9EeKJvcLnVfeI7Q" base_Element="_hlTTcTu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_hlTTdTu9EeKJvcLnVfeI7Q" base_Element="_hlTTcTu9EeKJvcLnVfeI7Q">
+    <annotations xmi:id="_hlTTdju9EeKJvcLnVfeI7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_t7X4MTu9EeKJvcLnVfeI7Q" base_Element="_t7X4MDu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t7hpMDu9EeKJvcLnVfeI7Q" base_Element="_t7X4Mju9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t7hpMju9EeKJvcLnVfeI7Q" base_Element="_t7hpMTu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Reference xmi:id="_t7hpNTu9EeKJvcLnVfeI7Q" base_Element="_t7hpMzu9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:Reference xmi:id="_t7hpODu9EeKJvcLnVfeI7Q" base_Element="_t7hpNju9EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AHviADu-EeKJvcLnVfeI7Q" base_Element="_AHlxADu-EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AH4r8ju-EeKJvcLnVfeI7Q" base_Element="_AH4r8Du-EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AH4r9Tu-EeKJvcLnVfeI7Q" base_Element="_AH4r8zu-EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AH4r9zu-EeKJvcLnVfeI7Q" base_Element="_AH4r9ju-EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AH4r-Tu-EeKJvcLnVfeI7Q" base_Element="_AH4r-Du-EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AH4r-zu-EeKJvcLnVfeI7Q" base_Element="_AH4r-ju-EeKJvcLnVfeI7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AH4r_Tu-EeKJvcLnVfeI7Q" base_Element="_AH4r_Du-EeKJvcLnVfeI7Q"/>
+</xmi:XMI>

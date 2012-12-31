@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_RGq3UEPMEeKi8rczAjwpLg">
+  <modelElement href="OOPaPrechod.uml#_Q259AEPMEeKi8rczAjwpLg"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_RJzD0EPMEeKi8rczAjwpLg" name="ubung1112Lisa">
+    <modelElement href="OOPaPrechod.uml#_RB6TIEPMEeKi8rczAjwpLg"/>
+    <visualProperties xmi:id="_RJzD0UPMEeKi8rczAjwpLg" position="50.0,50.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
