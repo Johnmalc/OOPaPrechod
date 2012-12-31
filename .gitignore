@@ -1,14 +1,5 @@
-*.class
-
-# Package Files #
-
-*.jar
-
-*.war
-
-*.ear
-
-*.uml
-*.bin
-*classpath
-*.umlcd
+#ignore everything under the 'bin' folder
+bin/
+#ignore the eclipse configuration files
+.classpath
+.project
