@@ -57,8 +57,8 @@ public class JETZ_GEHT_LOS {
 						+ " Artikel bestellt.");
 				break;
 			case 3: // B E Z A H L E N
-				AnzahlMain = 0;
-				System.out.println("Vielen Dank f�r Ihren Einkauf!");
+				//AnzahlMain = 0;
+				System.out.println("Vielen Dank f�r Ihren Einkauf!" + AnzahlMain);
 				break;
 			default:
 

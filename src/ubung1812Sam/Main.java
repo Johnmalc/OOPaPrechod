@@ -15,6 +15,7 @@ public class Main {
 	/**
 	 * @param args
 	 *            the command line arguments
+	 * @param bezahlen 
 	 */
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
@@ -22,11 +23,12 @@ public class Main {
 		// Artikel wa = new Artikel [2];
 
 		int a = 0;
+		int bezahlen = 0;
 		while (a != 99) {
 
 			System.out.println("Einkaufen - 1");
 			System.out.println("Anzeigen - 2");
-			//System.out.println("Bezahlen - 3");
+			System.out.println("Bezahlen - 3");
 
 			int zahl = scan.nextInt();
 			// erste Wahl - user wahlt 1
@@ -51,6 +53,7 @@ public class Main {
 					Hose h = new Hose(ihreMenge);
 					System.out.println(h.bezahlen(ihreMenge));
 					System.out.println(h.toString());
+					bezahlen = ihreMenge+bezahlen;
 					break;
 				case 2:
 					System.out.println("-------------");
@@ -59,6 +62,8 @@ public class Main {
 					Top ha = new Top(ihreMenge2);
 					System.out.println(ha.bezahlen(ihreMenge2));
 					System.out.println(ha.toString());
+					bezahlen = ihreMenge2+bezahlen;
+
 					break;
 				case 3:
 					System.out.println("-------------");
@@ -67,6 +72,8 @@ public class Main {
 					Hose hsa = new Hose(ihreMenge3);
 					System.out.println(hsa.bezahlen(1));
 					System.out.println(hsa.toString());
+					bezahlen = ihreMenge3+bezahlen;
+
 					break;
 				default:
 					System.out.println("Eoror");
@@ -84,7 +91,7 @@ public class Main {
 				System.out.println(wa.toString());
 				break;
 			case 3:
-				System.out.println("Zahlen Sie jetzt bitte");
+				System.out.println("Zahlen Sie jetzt bitte"+ bezahlen);
 				break;
 			default:
 				System.out.println("Error");
