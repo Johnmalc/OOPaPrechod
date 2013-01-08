@@ -3,3 +3,6 @@ bin/
 #ignore the eclipse configuration files
 .classpath
 .project
+
+.uml
+.umlcd
