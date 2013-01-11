@@ -1,6 +1,6 @@
 package ubung0801Druhy;
 
-public class Werk {
+public class Werk extends Masinen {
 	public Werk() {
 
 	}
@@ -10,15 +10,4 @@ public class Werk {
 		Anlage d1 = new Anlage();
 		d1 = a;
 	}
-
-	public Kase produziereKase() {
-		Kase k1 = new Kase();
-		return k1;
-	}
-
-	public Wurst produziereWurst() {
-		Wurst w1 = new Wurst();
-		return w1;
-	}
-
 }

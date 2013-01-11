@@ -1,10 +1,7 @@
 package ubung0801Druhy;
 
-public class Main {
+public class Main{
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Werk w = new Werk();
 		Anlage a = new Anlage();
@@ -16,6 +13,11 @@ public class Main {
 		w.add(a);
 		Kase k1 = w.produziereKase();
 		Wurst k2 = w.produziereWurst();
+		
+		/** DOCH geht es, !!!!!!!!! mann kann entweder methoden in werk ohne 
+		 *  vererbung eingeben, oder mit 
+		 *  vererbung in mascinen hinfugen
+		 */
 		
 		System.out.println(w.toString());
 		System.out.println(a.toString());
