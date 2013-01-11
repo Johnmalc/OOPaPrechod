@@ -7,3 +7,4 @@ bin/
 .uml
 .umlcd
 /*.classpath
+/bin
