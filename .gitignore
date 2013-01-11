@@ -1,5 +1,4 @@
 #ignore everything under the 'bin' folder
-bin/
 #ignore the eclipse configuration files
 .classpath
 .project
@@ -8,3 +7,4 @@ bin/
 .umlcd
 /*.classpath
 /bin
+/bin/ubung1112Sam
