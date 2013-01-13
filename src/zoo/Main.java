@@ -5,6 +5,7 @@ public class Main {
 	/**
 	 * @param args
 	 */
+	public static final int [] ar= {5,4};
 	public static void main(String[] args) {
 		Bar B1 = new Bar("Haus");
 		Vogel B2= new Vogel("Haus");
