@@ -11,7 +11,7 @@ public class Fahzeug {
 	double benzinPreisPerPerson;
 
 	public Fahzeug(int letadlo,int people, double benzinPreisPerPerson) {
-		this.letadlo = letadlo;
+		this.letadlo = -letadlo;
 		this.people = people;
 		this.benzinPreisPerPerson = benzinPreisPerPerson;
 	}

@@ -12,7 +12,8 @@ public class Berechnung {
 	public static double kosten(int passagieranzahl, double treibstoff,
 			double treibstoffperson, int andockgebuhr) {
 		double kosten = ((passagieranzahl * treibstoff * treibstoffperson * 1)
-				+ (passagieranzahl * treibstoff * treibstoffperson * 0.8) + (2 * andockgebuhr)+2*(8990));
+				+ (passagieranzahl * treibstoff * treibstoffperson * 0.8)
+				+ (2 * andockgebuhr) + 2 * (8990));
 		return kosten;
 	}
 

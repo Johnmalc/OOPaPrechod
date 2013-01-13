@@ -26,7 +26,7 @@ public class main {
 			} // end of if
 		} // end of for
 		ausgegeben = false;
-		
+
 		for (int i = 1; i <= Spider.getMax_passagiere(); i++) {
 			Spider.setPassagiere(i);
 			if (Berechnung.gewinn(Spider) > 0 && !ausgegeben) {
@@ -42,7 +42,7 @@ public class main {
 			fluege++;
 		} // end of while
 		System.out.println("N�tige Fluege f�r Typ Mouse: " + fluege);
-		
+
 		fluege = 0;
 		Spider.setPassagiere(Spider.getMax_passagiere());
 		while (Spider.getKosten() <= 0) {
