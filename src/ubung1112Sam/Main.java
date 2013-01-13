@@ -1,5 +1,7 @@
 package ubung1112Sam;
 
+import java.util.Random;
+
 /**
  * 
  * Beschreibung
@@ -10,15 +12,17 @@ package ubung1112Sam;
 
 public class Main {
 	public static void main(String[] args) {
+		Random ra = new Random();
+		int cislo = ra.nextInt(6); 
 		int anzahl = 8;
 		Kaffig[] tiere = new Kaffig[anzahl];
 		Kaffig t1 = new Kaffig("Kirstin", 4, 8);
 
 		for (int i = 0; i < 8; i++) {
-			int zufall = (int) (Math.random() * 6) + 1;
+			//int zufall = (int) (Math.random() * 6) + 1;
 			//System.out.println(zufall);
 
-			if (zufall == 2 || zufall == 6) {
+			if (cislo == 2 || cislo == 6) {
 				Gepard G1 = new Gepard("Jiri", 15);
 				t1.addTier(G1);
 			} else {
