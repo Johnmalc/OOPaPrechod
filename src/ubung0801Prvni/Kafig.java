@@ -2,9 +2,10 @@ package ubung0801Prvni;
 
 public class Kafig {
 	Hase[] ha;
-
+	Katze [] ka;
 	public Kafig() {
 		ha = new Hase[200];
+		ka = new Katze [2000];
 	}
 
 	public void add(Hase H1) {
@@ -15,5 +16,16 @@ public class Kafig {
 				System.out.println("error");
 			}
 		}
+	}
+	public void addKatze (Katze K1){
+		for (int i = 0; i <ka.length; i++){
+			if (ka !=null){
+				ka[i] = K1;
+			}else {
+				System.err.println("error");
+			}
+		}
+		
+		
 	}
 }

@@ -5,7 +5,7 @@ public class Kaefig {
 	Saeugetier[] kaefig;
 
 	public Kaefig() {
-		kaefig = new Saeugetier[8];
+		kaefig = new Saeugetier[10];
 		zaehler = 0;
 	}
 
