@@ -1,4 +1,5 @@
-package malc2;
+package ubung2001Druhy;
+
 
 public class Affe {
 	String AB;

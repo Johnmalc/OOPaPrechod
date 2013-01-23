@@ -1,4 +1,4 @@
-package malc3;
+package ubung2001Treti;
 
 public abstract class SuperKlasse {
 	String name= "Superkalsse";

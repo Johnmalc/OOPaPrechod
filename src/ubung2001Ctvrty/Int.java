@@ -1,4 +1,4 @@
-package malc4;
+package ubung2001Ctvrty;
 
 public interface Int {
 

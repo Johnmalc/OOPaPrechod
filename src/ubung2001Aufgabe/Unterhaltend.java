@@ -1,4 +1,4 @@
-package aufgabe;
+package ubung2001Aufgabe;
 
 public interface Unterhaltend {
 	

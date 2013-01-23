@@ -1,4 +1,4 @@
-package malc2;
+package ubung2001Druhy;
 
 public class MyException extends Exception {
 	String Ferhler;

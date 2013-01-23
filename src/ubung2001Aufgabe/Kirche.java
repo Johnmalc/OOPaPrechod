@@ -1,4 +1,4 @@
-package aufgabe;
+package ubung2001Aufgabe;
 
 public class Kirche extends Gebaude implements Unterhaltend {
 

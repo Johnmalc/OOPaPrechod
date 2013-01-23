@@ -1,4 +1,4 @@
-package aufgabe;
+package ubung2001Aufgabe;
 
 public class Disko extends Gebaude implements Unterhaltend {
 	private int anzahlPersonen;

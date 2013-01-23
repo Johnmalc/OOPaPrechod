@@ -1,4 +1,4 @@
-package malc3;
+package ubung2001Treti;
 
 public class BautTeilA extends SuperKlasse {
 	String name;
