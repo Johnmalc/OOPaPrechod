@@ -7,7 +7,7 @@ public class programm {
 
 		int depotanzahl = 3;
 		int i = 0;
-		int a = 0;
+		//int a = 0;
 		int f = 0;
 		int g = 1;
 		int h = 1;
@@ -99,7 +99,7 @@ public class programm {
 
 		// DEPOTGEBUEHREN MIT ARRAY!
 
-		double[] arr1 = new double[10];
+		// double[] arr1 = new double[10];
 
 		while (depotanzahl > 0) {
 			depotVerwaltung[f].calcualte();
