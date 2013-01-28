@@ -30,7 +30,7 @@ public class Main {
     auf8[2].setKaufenStuckzahl(60);
     
     // andern
-    auf8[0].setVerkaufenStuckzahl(90);
+    auf8[0].setVerkaufenStuckzahl(10);
     
 //    if(auf8[2].getVerkaufenStuckzahl() >= auf8[2].getKaufenStuckzahl()) {
 //      System.out.println("Sie konnen nicht merh verkaufen als kaufen");

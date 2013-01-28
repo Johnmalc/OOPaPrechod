@@ -10,7 +10,7 @@ public class Disko extends Gebaude implements Unterhaltend {
 	
 	@Override
 	public int unterhaltungswer() {
-		double f = anzahlPersonen * (int) 0.3;
+		double f = anzahlPersonen * 0.3;
 		return (int) f;
 		
 	}

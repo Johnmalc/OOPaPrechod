@@ -16,6 +16,7 @@ public class Main2 {
 		} catch (MyException s) {
 			System.out.println(s.getMessage());
 			System.out.println(s.getMessage());
+			System.out.println(s.toString());
 		}
 
 //		MyException a = new MyException();
