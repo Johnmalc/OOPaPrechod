@@ -1,11 +1,9 @@
 #ignore everything under the 'bin' folder
 #ignore the eclipse configuration files
-.classpath
 .project
 
 .uml
 .umlcd
-/*.classpath
 /bin
 /bin/ubung1112Sam
 /bin/ubung1112Sam/*.png
