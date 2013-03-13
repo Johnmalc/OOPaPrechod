@@ -8,7 +8,7 @@ public class Main2 {
 	 * throws MyException
 	 */
 	public static void main(String[] args)  {
-		System.out.println("eigene fehler klasse");
+		System.out.println("eigene fehler kasse");
 
 		try {
 			throw new MyException("fehler von kome");
