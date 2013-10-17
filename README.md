@@ -11,4 +11,4 @@ Ubung 11.12 - 1 Version: 3/4 mine, other A.; another version is L. with Gutbrod 
 
 Other exercises include the same logic as described above. 
 
- 
+ [http://projekty.komentovaneudalosti.cz/html/annotated.html](http://projekty.komentovaneudalosti.cz/html/annotated.html)
